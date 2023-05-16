@@ -2,7 +2,7 @@
 
 
 regex = /^hb+tt*+n$/
-input = "hbtn"
+input = ARGV[0]
  
 if input.match?(regex)
     puts input
