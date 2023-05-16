@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby 
 
 
-regex = /^hb+tt*+n$/
+regex = /^hb+t{2,5}+n$/
 input = ARGV[0]
  
 if input.match?(regex)
