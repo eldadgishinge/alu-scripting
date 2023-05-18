@@ -1,10 +1,2 @@
 #!/usr/bin/env ruby
-
-regex = /hbt*n/
-input = ARGV[0]
-
-if input.match?(regex)
-    puts input
-else
-    puts ""
-end
+puts ARGV[0].scan(/hbt{0,10}n/).join
